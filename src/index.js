@@ -43,3 +43,14 @@ console.log('Proje açıldı!')
 
 
 /* Kodlar Buradan aşağıya */
+const aDom = document.getElementsByTagName("a");
+if(aDom){
+  aDom[0].textContent = "Servisler";
+  aDom[1].textContent = "Ürünler";
+  aDom[2].textContent = "Vizyon";
+  aDom[3].textContent = "Özellikler";
+  aDom[4].textContent = "Hakkımızda";
+  aDom[5].textContent = "İletişim";
+  
+ }
+ 
